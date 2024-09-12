@@ -1,0 +1,5 @@
+#!/bin/sh
+
+avrdude -p atmega328p -b 57600 -c arduino -P /dev/arduino -U images/aprs.bin -v
+
+
